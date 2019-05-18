@@ -9,55 +9,50 @@ const LiData = props => {
           <p className="desc">
             <strong>Name:</strong>
           </p>
-          {props.starwarsChars.name}
+          {props.person.name}
         </li>
         <li className="li-item">
           <p className="desc">
             <strong>Gender:</strong>
           </p>
-          {props.starwarsChars.gender}
+          {props.person.gender}
         </li>
         <li className="li-item">
           <p className="desc">
             <strong>Birth Year:</strong>
           </p>
-          {props.starwarsChars.birth_year}
+          {props.person.birth_year}
         </li>
         <li className="li-item">
           <p className="desc">
             <strong>Eye Color:</strong>
           </p>
-          {props.starwarsChars.eye_color}
+          {props.person.eye_color}
         </li>
         <li className="li-item">
           <p className="desc">
             <strong>Hair Color:</strong>
           </p>
-          {props.starwarsChars.hair_color}
+          {props.person.hair_color}
         </li>
         <li className="li-item">
           <p className="desc">
             <strong>Height:</strong>
           </p>
-          {props.starwarsChars.height}
+          {props.person.height}
         </li>
         <li className="li-item">
           <p className="desc">
             <strong>Weight:</strong>
           </p>
-          {props.starwarsChars.mass}
+          {props.person.mass}
         </li>
-        <li className="li-item">
-          <p className="desc">
-            <strong>Home World:</strong>
-          </p>
-          {props.starwarsChars.homeworld}
-        </li>
+
         <li className="li-item">
           <p className="desc">
             <strong>Skin Color:</strong>
           </p>
-          {props.starwarsChars.skin_color}
+          {props.person.skin_color}
         </li>
         {/* If you complete the project, come back and add in the additional array values*/}
         {/* <li className="li-item">{props.starwarsChars.name}</li>

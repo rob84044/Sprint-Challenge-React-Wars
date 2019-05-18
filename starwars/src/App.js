@@ -34,9 +34,11 @@ class App extends Component {
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
-        {this.state.starwarsChars.map(person => (
-          <LiData person={person} key={person.name} />
-        ))}
+        <div className="person">
+          {this.state.starwarsChars.map(person => (
+            <LiData className="indivPerson" person={person} key={person.name} />
+          ))}
+        </div>
       </div>
     );
   }

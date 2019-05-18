@@ -9,50 +9,50 @@ const LiData = props => {
           <p className="desc">
             <strong>Name:</strong>
           </p>
-          {props.person.name}
+          {props.person.name.toUpperCase()}
         </li>
         <li className="li-item">
           <p className="desc">
             <strong>Gender:</strong>
           </p>
-          {props.person.gender}
+          {props.person.gender.toUpperCase()}
         </li>
         <li className="li-item">
           <p className="desc">
             <strong>Birth Year:</strong>
           </p>
-          {props.person.birth_year}
+          {props.person.birth_year.toUpperCase()}
         </li>
         <li className="li-item">
           <p className="desc">
             <strong>Eye Color:</strong>
           </p>
-          {props.person.eye_color}
+          {props.person.eye_color.toUpperCase()}
         </li>
         <li className="li-item">
           <p className="desc">
             <strong>Hair Color:</strong>
           </p>
-          {props.person.hair_color}
+          {props.person.hair_color.toUpperCase()}
         </li>
         <li className="li-item">
           <p className="desc">
             <strong>Height:</strong>
           </p>
-          {props.person.height}
+          {props.person.height.toUpperCase()}
         </li>
         <li className="li-item">
           <p className="desc">
             <strong>Weight:</strong>
           </p>
-          {props.person.mass}
+          {props.person.mass.toUpperCase()}
         </li>
 
         <li className="li-item">
           <p className="desc">
             <strong>Skin Color:</strong>
           </p>
-          {props.person.skin_color}
+          {props.person.skin_color.toUpperCase()}
         </li>
         {/* If you complete the project, come back and add in the additional array values*/}
         {/* <li className="li-item">{props.starwarsChars.name}</li>

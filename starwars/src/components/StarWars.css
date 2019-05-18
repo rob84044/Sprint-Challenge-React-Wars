@@ -1,6 +1,63 @@
-.charInfo {}
+.charInfo {
+  width: 47%;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 100px;
+  margin-bottom: 50px;
+}
 
 .charData {
-  width: 30%;
+  text-align: left;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+
+  /* background-image: url(/starwars/src/components/Images/px_by_Gre3g_@2X.png)
+    /*
+
+
+========================================================
+This pattern is downloaded from www.subtlepatterns.com 
+If you need more, that's where to get'em.
+========================================================
+
+*/
+
+}
+
+ul.charData {
+  text-align: left;
+  margin: 0;
+  padding: 30px 80px;
+  line-height: 8px;
+}
+
+.charData li {
+  text-align: left;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  color: lightcyan;
+  font-size: 16px;
+}
+
+.charData p {
+  text-align: left;
+  color: lightgreen;
 
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import './StarWars.css';
 
-const Li = props => {
+const LiData = props => {
   return (
     <div className="charInfo">
       <ul className="charData">
@@ -25,4 +25,4 @@ const Li = props => {
   );
 };
 
-export default Li;
+export default LiData;

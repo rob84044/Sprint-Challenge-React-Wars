@@ -1,8 +1,32 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  background-image: url('./sw-bg.jpg');
 }
+
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
 }
+
+.person {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+.indivPerson {
+  width: 30%;
+}
+
 /* write your parent styles in here for your App.js */
